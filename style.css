@@ -1,0 +1,704 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.alex p {}
+
+.alex p::after {
+    content: "";
+    animation-name: animation;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+/* 2 designer 1 developer  */
+
+@keyframes animation {
+    0% {
+        content: "D|";
+    }
+    2% {
+        content: "De|";
+    }
+    4% {
+        content: "Des|";
+    }
+    6% {
+        content: "Desi|";
+    }
+    8% {
+        content: "Desig|";
+    }
+    10% {
+        content: "Design|";
+    }
+    12% {
+        content: "Designe|";
+    }
+    14% {
+        content: "Designer|";
+    }
+    16% {
+        content: "Designer|";
+    }
+    18% {
+        content: "Designe|";
+    }
+    20% {
+        content: "Design|";
+    }
+    22% {
+        content: "Desig|";
+    }
+    24% {
+        content: "Desi|";
+    }
+    26% {
+        content: "Des|";
+    }
+    28% {
+        content: "De|";
+    }
+    30% {
+        content: "D|";
+    }
+    32% {
+        content: "|";
+    }
+    34% {
+        content: "D|";
+    }
+    36% {
+        content: "De|";
+    }
+    38% {
+        content: "Des|";
+    }
+    40% {
+        content: "Desi|";
+    }
+    42% {
+        content: "Desig|";
+    }
+    44% {
+        content: "Design|";
+    }
+    46% {
+        content: "Designe|";
+    }
+    48% {
+        content: "Designer|";
+    }
+    50% {
+        content: "Designer|";
+    }
+    52% {
+        content: "Designer|";
+    }
+    54% {
+        content: "Designe|";
+    }
+    56% {
+        content: "Design|";
+    }
+    58% {
+        content: "Desig|";
+    }
+    60% {
+        content: "Desi|";
+    }
+    62% {
+        content: "Des|";
+    }
+    64% {
+        content: "De|";
+    }
+    66% {
+        content: "D|";
+    }
+    68% {
+        content: "|";
+    }
+    70% {
+        content: "|";
+    }
+    72% {
+        content: "D|";
+    }
+    74% {
+        content: "De|";
+    }
+    76% {
+        content: "Dev|";
+    }
+    78% {
+        content: "Deve|";
+    }
+    80% {
+        content: "Devel|";
+    }
+    82% {
+        content: "Develo|";
+    }
+    84% {
+        content: "Develop|";
+    }
+    86% {
+        content: "Develope|";
+    }
+    88% {
+        content: "Developer|";
+    }
+    90% {
+        content: "Developer|";
+    }
+    91% {
+        content: "Develope|";
+    }
+    92% {
+        content: "Develop|";
+    }
+    93% {
+        content: "Develo|";
+    }
+    94% {
+        content: "Devel|";
+    }
+    95% {
+        content: "Deve|";
+    }
+    96% {
+        content: "Dev|";
+    }
+    97% {
+        content: "De|";
+    }
+    98% {
+        content: "D|";
+    }
+    100% {
+        content: "|";
+    }
+}
+
+.home {
+    background-image: url("img/slider/slider-01.jpg");
+    height: 100vh;
+    background-size: 100%;
+    margin-bottom: 50px;
+}
+
+.opa {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.alex {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.alex h1 {
+    color: #ff305b;
+    font-size: 55px;
+    padding: 10px;
+}
+
+.alex h3, .alex p {
+    font-size: 26px;
+    color: white;
+}
+
+.par {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.navlist {
+    width: 60%;
+}
+
+.navlist ul {
+    padding: 0;
+    padding-top: 10px;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-left: 20px;
+}
+
+.par h2 {
+    width: 20%;
+    padding: 10px;
+    color: #ff305b;
+    text-align: center;
+}
+
+.par a {
+    transition: color 0.5s;
+}
+
+.par a:hover {
+    color: #ff305b;
+}
+
+#one {
+    color: #ff305b;
+}
+/*********************************Hello**************************************/
+hr {
+    border-top: 2px dotted grey;
+}
+
+.hello {
+    margin-top: 50px;
+    display: flex;
+}
+.hello p{
+    line-height: 1.6;
+}
+span {
+    font-weight: 900;
+}
+
+.mr {
+    margin-right: 30px;
+}
+
+i {
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    transition: color 0.5s;
+}
+
+i:hover {
+    color: #ff305b;
+}
+
+.hello .grandparent {
+    height: 440px;
+    width: 360px;
+    border: 7px solid grey;
+    border-radius: 2%;
+    position: relative;
+}
+
+.parent {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+
+.parent .childs {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.parent .childs .shade {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.3;
+    transition: top 1s;
+}
+
+.childs:hover .shade {
+    top: 0;
+}
+
+.hello {
+    width: 80%;
+    margin: auto;
+}
+
+.hello .child {
+    box-sizing: border-box;
+    width: 50%;
+    padding-left: 50px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.hello .child .line {
+    height: 23px;
+    background-color: red;
+    width: 5px;
+    position: absolute;
+    top: 5px;
+    left: 42px;
+}
+
+.hello .child .info p {
+    width: 50%;
+    line-height: 2;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+.hello .child button {
+    box-sizing: border-box;
+    background-color: #ff305b;
+    padding: 10px 20px;
+    margin-top:20px;
+    border-radius: 5px;
+    border-color: #ff305b;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, p, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, span, h3 {
+    color: #555555;
+}
+
+p {
+    color: #898785;
+}
+/***********************************Services**********************************************/
+.service {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+    margin: 50px;
+}
+
+.services {
+    background-color: #f1f1f1;
+}
+.fields{
+    margin: auto;
+}
+.field {
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    padding: 20px;
+    transition: background-color 1s;
+}
+
+.field:hover {
+    background-color: #fff;
+    box-shadow: 1px 2px 2px grey;
+}
+
+.field img {
+    transition: transform 1s;
+}
+
+.field:hover img {
+    transform: scale(1.1);
+}
+
+.lines {
+    width: 10%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.field h3{
+    padding: 20px;
+}
+.field p{
+    line-height: 1.4;
+}
+/*****************************portfolio******************************************/
+.sline1 {
+    width: 40px;
+    height: 0.5px;
+    background-color: #ff305b;
+    margin: auto;
+}
+
+.sline2 {
+    width: 40px;
+    height: 0.5px;
+    background-color: #ff305b;
+    margin: auto;
+}
+
+.bline {
+    width: 115px;
+    height: 1.5px;
+    background-color: #ff305b;
+    margin: 5px;
+}
+
+.Portfolio {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.first {
+    position: relative;
+}
+.buy{
+    width: 33.3333%;
+    float: left;
+    box-sizing: border-box;
+    padding: 20px;
+    cursor: pointer;
+}
+.Portfolio .items img {
+    width: 100%;
+}
+.gg {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(57, 56, 59);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.gg:hover {
+    opacity: 0.5;
+}
+/****************************Results****************************************/
+.back {
+    background-color: #f1f1f1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.results {
+    width: 80%;
+    margin: auto;
+}
+
+.result {
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    padding: 50px;
+    text-align: center;
+}
+
+.clients {
+    text-align: center;
+}
+
+.client {
+    width: 65%;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+    padding-bottom: -25px;
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+.client .testimonial {
+    float: left;
+    width: 30%;
+}
+
+.client .rate {
+    float: left;
+    width: 50%;
+}
+
+.box {
+    height: 300px;
+    width: 20%;
+    background-color: #ff305b;
+    float: left;
+    transform: rotate(40deg) translateY(-25px) translateX(-120px);
+}
+
+.client .testimonial img {
+    border-radius: 50% 50%;
+    position: relative;
+    right: 230px;
+    top: 40px
+}
+
+.client .rate {
+    text-align: left;
+    position: relative;
+    bottom: 120px;
+    right: 0px;
+    width: 600px;
+}
+
+.client .rate p {
+    font-size: 18px;
+    color: red;
+}
+
+.blog {
+    box-sizing: border-box;
+    padding: 50px;
+    margin-top: 50px;
+    background-color: #f1f1f1;
+    ;
+}
+
+.blogs {
+    width: 80%;
+    margin: auto;
+}
+
+.blog h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.blogs .blog1, .blogs .blog2, .blogs .blog3 {
+    width: 33.3333%;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.blogs .part1, .blogs .part2, .blogs .part3 {
+    background-color: white;
+}
+
+.blogs img, .blogs iframe {
+    width: 100%;
+}
+
+.blogs iframe {
+    height: 200px;
+}
+
+.blogs a {
+    color: #555555;
+}
+
+.blogs a {
+    transition: color 1s;
+}
+
+.blogs h3 :hover {
+    color: #ff305b;
+}
+
+.blog h3, .blog p {
+    padding: 5px 20px;
+}
+
+.clients .lines .bline, .blog .lines .bline, .contact .lines .bline {
+    width: 130px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact form .basic {
+    width: 50%;
+    margin: auto;
+}
+
+.contact form .basic .name, .contact form .basic .email {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.contact form .basic #two, .contact form .basic #one {
+    width: 100%;
+    border-radius: 3px;
+    border-color: rgb(182, 180, 180);
+    border-width: 1px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.contact h2{
+    margin-top:40px;
+    margin-bottom: 10px;
+}
+.basic2 {
+    width: 50%;
+    margin: auto;
+    padding-left: 38px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.basic2 #three {
+    border-radius: 3px;
+    border-color: rgb(182, 180, 180);
+    border-width: 1px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 97%;
+}
+
+.basic3 {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.basic3 #four {
+    border-radius: 3px;
+    border-color: rgb(182, 180, 180);
+    box-sizing: border-box;
+    padding: 10px;
+    width: 97%;
+}
+
+.basic4 {
+    width: 50%;
+    margin: auto;
+}
+
+.basic4 button {
+    background-color: #ff305b;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border-color: #ff305b;
+}
+
+.end {
+    height: 200px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #333;
+}
+
+.end a {
+    color: #ff305b;
+}
